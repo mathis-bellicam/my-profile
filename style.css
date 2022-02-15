@@ -1,0 +1,102 @@
+/*fonts and colors*/
+
+body { 
+	background: #FFFCFC;
+	color: #716B67;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	font-weight: 300;
+}
+h1,h2 {
+	font-family: 'Playfair Display', serif;
+}
+h1 {
+	color: #342B25;
+	font-size: 32px;
+	font-weight: lighter;
+}
+h2 {
+	color: #342B25;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #342B25;
+	transition: color 0.4s ease;
+	font-weight: bolder;
+	font-family: 'Playfair Display', serif;
+}
+a:hover {
+	color: skyblue;
+}
+
+/*custom design*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 650px) {
+	.container {
+		width: 550px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card_pink {
+	background-color: #F9EFEA;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img_circle {
+	border-radius: 12px;
+}
+.btn_black {
+	background-color: #342B25;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+.btn_black:hover {
+	background-color: skyblue;
+	color: white;
+}
+.list_inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list_inline li {
+	display: inline;
+	margin: 10px;
+}
+.list_inline i {
+	font-size: 40px;
+}
+#introduction p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
